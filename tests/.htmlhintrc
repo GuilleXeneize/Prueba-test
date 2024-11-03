@@ -25,7 +25,7 @@
       "redundantAttrs": ["title"]
     },
     "img":{
-      "selfclosing": false,
+      "selfclosing": true,
       "attrsRequired": ["alt"],
       "redundantAttrs": ["title"]
     }
