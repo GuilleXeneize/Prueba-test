@@ -20,12 +20,13 @@
   "semantics": true,
   "tags-check":{
     "a":{
-      "selfclosing": true,
-      "attrsRequired": ["href", "alt"],
+      "selfclosing": false,
+      "attrsRequired": ["href"],
       "redundantAttrs": ["title"]
     },
     "img":{
       "selfclosing": false,
+      "attrsRequired": ["alt"],
       "redundantAttrs": ["title"]
     }
   }
